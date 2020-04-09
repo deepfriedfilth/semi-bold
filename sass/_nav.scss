@@ -1,0 +1,112 @@
+nav {
+	display: flex;
+
+	// Main Menu 
+
+	ul {
+		margin: 0;
+		list-style: none;
+
+		li {
+			line-height: 35px;
+
+			a {
+				margin: 0 0.5em;
+				padding: 0.35em 0.65em;
+				border: 1px solid $black;
+				border-radius: 4px;
+				color: $black;
+
+				font-size: 0.9em;
+				text-decoration: none;
+
+				&:hover {
+					color: $blackest;
+					border-color: $blackest;
+				}
+			}
+		}
+	}
+
+	// Search Related
+
+	form {
+		display: flex;
+		input {
+			display: block;
+			width: 0;
+			height: 35px;
+			border: 0;
+			outline: none;
+
+			transition: width 0.2s;
+
+			&.wide-load {
+				width: 200px;
+			}
+
+		}
+		button {
+			padding: 5px;
+			width: 35px;
+			height: 35px;
+			background: none;
+			border: 0;
+
+			outline: none;
+
+			svg {
+				path {
+					fill: $black;
+				}
+			}
+
+			&:hover,
+			&:focus {
+				cursor: pointer;
+				svg {
+					path {
+						fill: $blackest;
+					}
+				}
+			}
+		}
+	}
+
+	// User Related
+
+	a.user-avatar {
+		display: block;
+		
+		position: relative;
+
+		margin: 1.5px 0 1.5px 0.5em;
+		width: 32px;
+		height: 32px;
+		border-radius: 16px;
+
+		text-decoration: none;
+
+		span {
+			display: block;
+			width: 32px;
+			height: 32px;
+			background: $black;
+			border-radius: 16px;
+
+			text-align: center;
+			line-height: 32px;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+			border-radius: 50%;
+
+			&.emoji {
+				border-radius: none;
+			}
+		}
+
+	}
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Semi-Bold
+Description: An open source WordPress theme
+Author: Nathan Kawatski
+Author URI: https://nathankawatski.com
+License: GNU Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+@import 'vars';
+@import 'reset';
+
+@import 'global';
+
+@import 'header';
+/*
+@import 'footer';
+*/
+@import 'nav';
+/*
+@import 'homepage';
+
+@import 'feed';
+@import 'sidebar';
+*/
+@import 'article';
+/*
+@import 'author';
+
+@import 'comments';
+*/
+
+/* Lest we forget old fogeys who like to print webpages! */
+
+/*
+@import 'print';
+*/
+

@@ -1,0 +1,20 @@
+/* colors */
+
+$black: rgba(0,0,0,0.8);
+$blacker: rgba(0,0,0,0.9);
+$blackest: #000;
+$white: #fff;
+
+$trans-black: rgba(0,0,0,0);
+$trans-white: rgba(255,255,255,0);
+
+/* typography */
+
+$size-h1: 36px;
+$size-h2: 28px;
+$size-h3: 21px;
+$size-h4: 18px;
+
+$font-sans: 'Open Sans', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-serif: Georgia, Cambria, 'Times New Roman', Times, serif;
+$font-mono: Consolas, Monaco, 'Courier New', Courier, monospace;
