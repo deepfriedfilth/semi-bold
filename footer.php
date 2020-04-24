@@ -25,8 +25,8 @@
 			<nav class="footer-navigation">
 				<?php
 					wp_nav_menu(array(
-						'theme_location'	=> 'primary-menu',
-						'menu_id'			=> 'primary-menu'
+						'theme_location'	=> 'footer-menu',
+						'menu_id'			=> 'footer-menu'
 					));
 				?>
 			</nav>
