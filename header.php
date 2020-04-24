@@ -36,7 +36,7 @@
 					<?php endif; ?>
 					</a>
 				</div>
-			</div>
-		</nav>
+			</nav>
+		</div>
 	</header>
 	<div id="content" class="site-content">
