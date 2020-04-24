@@ -3,18 +3,26 @@
 $black: rgba(0,0,0,0.8);
 $blacker: rgba(0,0,0,0.9);
 $blackest: #000;
+
+$whitish: rgba(255,255,255,0.7);
 $white: #fff;
+
+$grayish: rgba(0,0,0,0.05);
+$gray: rgba(0,0,0,0.54);
+
+$green: rgba(66,154,53,1);
+$greener: rgba(59,120,48,1);
 
 $trans-black: rgba(0,0,0,0);
 $trans-white: rgba(255,255,255,0);
 
 /* typography */
 
-$size-h1: 36px;
-$size-h2: 28px;
-$size-h3: 21px;
-$size-h4: 18px;
+$size-h1: 4rem; //40px;
+$size-h2: 2.8rem; //28px;
+$size-h3: 2.1rem; //21px;
+$size-h4: 1.8rem; // 18px;
 
 $font-sans: 'Open Sans', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-serif: Georgia, Cambria, 'Times New Roman', Times, serif;
+$font-serif: Baskerville, Antigua, 'Crimson Text', Georgia, Cambria, 'Times New Roman', Times, serif;
 $font-mono: Consolas, Monaco, 'Courier New', Courier, monospace;

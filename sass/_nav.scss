@@ -8,22 +8,11 @@ nav {
 		list-style: none;
 
 		li {
+			font-size: 1.3rem;
 			line-height: 35px;
 
 			a {
-				margin: 0 0.5em;
-				padding: 0.35em 0.65em;
-				border: 1px solid $black;
-				border-radius: 4px;
-				color: $black;
-
-				font-size: 0.9em;
-				text-decoration: none;
-
-				&:hover {
-					color: $blackest;
-					border-color: $blackest;
-				}
+				@include button;
 			}
 		}
 	}
@@ -80,7 +69,7 @@ nav {
 		
 		position: relative;
 
-		margin: 1.5px 0 1.5px 0.5em;
+		margin-left: 0.5rem;
 		width: 32px;
 		height: 32px;
 		border-radius: 16px;

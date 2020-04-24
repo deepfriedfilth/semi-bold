@@ -9,22 +9,27 @@ License: GNU Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
+/* Header Text */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+@import 'mixins';
+
 @import 'vars';
 @import 'reset';
 
 @import 'global';
 
 @import 'header';
-/*
 @import 'footer';
-*/
+
 @import 'nav';
 /*
 @import 'homepage';
-
-@import 'feed';
-@import 'sidebar';
 */
+@import 'feed';
+
+@import 'sidebar';
+
 @import 'article';
 /*
 @import 'author';

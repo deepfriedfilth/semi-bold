@@ -8,15 +8,24 @@
 
 				get_template_part('template-parts/content', get_post_type());
 
+				if(comments_open() || get_comments_number()):
+					// comments_template();
+					// Replace comments with button to load this on separate page
+				?>
+
+				<div class="comments">
+					<a href="#" class="btn comments-btn">See responses (<?php echo get_comments_number(); ?>)</a>
+				</div>
+
+				<?php
+				endif;
+
 				// the_post_navigation();
 
-				if(comments_open() || get_comments_number()):
-					comments_template();
-				endif;
 			endwhile;
 			?>
 			</main>
 		</div>
 
-<?php get_sidebar(); ?>
+<?php get_sidebar('post'); ?>
 <?php get_footer(); ?>

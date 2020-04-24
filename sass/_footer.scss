@@ -1,0 +1,31 @@
+footer.site-footer {
+	background: $blacker;
+	color: $white;
+
+	.last-chance-upsell {
+		display: flex;
+		align-items: space-between;
+		padding: 4rem 0 3rem;
+
+		div {
+			width: calc(100% / 3);
+			h3 {
+				margin-top: 0;
+				font-size: $size-h4;
+			}
+			p {
+				max-width: 88%;
+				color: $whitish;
+
+				font-size: 1.3rem;
+				line-height: 1.6;
+			}
+		}
+		
+	}
+
+	.breadcrumbs {
+		padding-top: 2rem;
+		@include border-top($whitish);
+	}
+}

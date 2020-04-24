@@ -5,17 +5,62 @@ body {
 	color: rgba(0,0,0,0.8);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
 	font-family: $font-serif;
+	font-size: $size-h1;
+}
+
+h2 {
+	font-size: $size-h2;
+}
+
+h3 {
+	font-size: $size-h3;
+}
+
+h4 {
+	font-size: $size-h4;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: $font-sans;
+}
+
+
+figcaption {
+	font-family: $font-sans;
+	font-size: 1.2rem;
 }
 
 code {
+	padding: 1rem;
+	background: $grayish;
 	font-family: $font-mono;
 }
 
 .wrap {
 	margin: 0 64px;
 	max-width: 1192px;
+}
+
+.btn {
+	@include button;
+}
+
+.user-avatar {
+	img {
+		padding: 3px;
+		width: auto;
+		height: auto;
+		max-height: 100%;
+		border-radius: 50%;
+	}
+
+	&.new-activity {
+		img {
+			border: 1px solid $green;
+		}
+	}
 }
 
 .btm-alert-banner {

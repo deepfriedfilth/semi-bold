@@ -1,0 +1,9 @@
+aside.related-posts {
+	padding: 3rem 0;
+	background: $grayish;
+
+	h2 {
+		font-size: $size-h3;
+		@include border-bottom($grayish, -1rem);
+	}
+}
