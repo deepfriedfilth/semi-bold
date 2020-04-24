@@ -25,7 +25,8 @@ footer.site-footer {
 	}
 
 	.breadcrumbs {
-		padding-top: 2rem;
+		padding: 2rem 0;
+		height: 35px;
 		@include border-top($whitish);
 	}
 }
