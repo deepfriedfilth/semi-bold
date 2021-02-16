@@ -10,7 +10,8 @@
     "gulp-sourcemaps": "^2.6.5"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^5.0.0",
+    "socket.io": "^3.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
