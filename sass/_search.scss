@@ -1,0 +1,29 @@
+/* Search specific styling */
+
+.page-header {
+	.page-title {
+		// display: flex;
+		font-size: $size-h1;
+		@include centered;
+	}
+	input {
+		display: block;
+		width: 100%;
+		border: 0;
+		border-bottom: 1px solid $grayish;
+
+		color: inherit;
+		font-size: inherit;
+
+		outline: none;
+	}
+	button {
+		display: block;
+		margin-left: auto;
+		border: 0;
+		
+		background: none;
+
+		outline: none;
+	}
+}
